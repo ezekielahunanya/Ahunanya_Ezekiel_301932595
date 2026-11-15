@@ -4,7 +4,7 @@
 
 ## Case study
 
-My case study is Outpatient Visit Invoice Ledger. I designed the database for synthetic clinic billing staff and synthetic database patients, with separate tables named patient, visit, invoice, service_code and invoice_line. It supports these operations: create an invoice and its lines atomically for a visit; join invoices to visits and patients; filter visits by patient and date; aggregate quantity multiplied by unit price by visit and service code; benchmark invoice-line lookup by invoice_id with and without a B-tree index using 50,000 synthetic rows.
+My case study is Outpatient Visit Invoice Ledger. I designed the database for synthetic clinic billing staff and synthetic database data, with separate tables named patient, visit, invoice, service_code and invoice_line. It supports these operations: create an invoice and its lines atomically for a visit; join invoices to visits and patients; filter visits by patient and date; aggregate quantity multiplied by unit price by visit and service code; benchmark invoice-line lookup by invoice_id with and without a B-tree index using 50,000 synthetic rows.
 
 ## Portfolio 1: Database Design and Modelling
 
