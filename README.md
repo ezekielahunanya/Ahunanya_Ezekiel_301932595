@@ -1,7 +1,13 @@
-# Ezekiel Ahunanya — MIT 8103
+# Outpatient Visit Invoice Ledger
 
-Student ID: 301932595
+Ezekiel Ahunanya · Student ID 301932595
 
-Outpatient Visit Invoice Ledger. Entities: Patient, Visit (FK to Patient), Invoice (FK to Visit), ServiceCode, and InvoiceLine (FKs to Invoice and ServiceCode). Query billed totals per visit by service. In one transaction, create an invoice and its lines. Require one invoice per visit with UNIQUE(visit_id); MongoDB invoice events snapshot the invoice, visit, and patient.
+The portfolio uses fictional records for Outpatient Visit Invoice Ledger.
 
-The portfolio is being generated. Completed stages will appear in the commit history.
+- [Portfolio 1](portfolio-1-database-design/)
+- [Portfolio 2](portfolio-2-query-optimisation/)
+- [Portfolio 3](portfolio-3-transactions-concurrency/)
+- [Portfolio 4](portfolio-4-nosql/)
+- [Portfolio 5](portfolio-5-distributed-cloud/)
+
+[Final summary](Ahunanya_Ezekiel_301932595_FinalSummary.md) · [PDF](Ahunanya_Ezekiel_301932595_FinalSummary.pdf)
